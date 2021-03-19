@@ -1,5 +1,5 @@
 sudo: required
-services: -docker
+services: - docker
 language: generic
 before_install:
   - docker build -t davkir/docker-react -f Dockerfile.dev .
